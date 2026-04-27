@@ -616,3 +616,92 @@ margin: auto;
     position: relative;
  }
 }
+/* combine_flex_section */
+.h3_flex{
+    width: 354px;
+    height: 11px;
+    font-size: 12px;
+    margin: 12px 0px;
+    color: #1B1B1B;
+}
+.h3_flex{
+    width: 354px;
+    height: 40px;
+    font-size: 40px;
+    color: #1B1B1B;
+    font-weight: 600;
+}
+.p1_flex{
+    width: 354px;
+    height: 23px;
+    font-size: 22px;
+    margin: 22px 0px 16px;
+    color: #1B1B1B;
+}
+.p2_flex{
+    width: 354px;
+    height: 158px;
+    font-size: 16px;
+    margin: 16px 0px;
+    color: #1B1B1B;
+}
+.p3_flex{
+    width: 198px;
+    height: 19px;
+    font-size: 16px;
+    color: #1B1B1B;
+}
+.second_flex_img{
+    width: 700px;
+    height: 560px;
+}
+.view_image{
+    text-align: right;
+}
+.first_flex{
+    width: 394px;
+    height: 592px;
+}
+.second_flex{
+    width: 750px;
+    height: 560px;
+}
+.combine_flex{
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+.arrow_download{
+    top: 0px;
+}
+@media (max-width:768px) {
+    .combine_flex{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.first_flex{
+    width: 394px;
+    height: 400px;
+}
+.second_flex_img{
+    width: 100%;
+    height: 560px;
+}
+.second_flex{
+    width: 100%;
+    height: 560px;
+}
+}
+.more_nasa_images{
+    max-width: 1200px;
+    height: 40px;
+    color: #1B1B1B;
+    font-size: 40px;
+    margin: auto;
+    font-weight: bolder;
+    padding: 20px;
+}
