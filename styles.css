@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    /* outline: 15px solid red; */
+    /* outline: 10px solid red; */
 }
 /* header */
 .nasa_header{
@@ -71,6 +71,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+.input_header{
+    width: 196px;
+    height: 32px;
+    border: 1px solid white;
+    background-color: #000000;
+    text-align: left;
+    padding: 0px 8px;
+    color: #ffffff;
+
 }
 }
 /* hero_section */
@@ -168,6 +178,20 @@
     color: #ffffff;
     text-transform: capitalize;
 }
+.hero_h2{
+    width: 324px;
+    height: 110px;
+    font-size: 35px;
+    margin: 30px 0px 8px;
+    color: #ffffff;
+}
+.hero_para1{
+    width: 324px;
+    height: 160px;
+    font-size: 16px;
+    margin: 16px 0px;
+    color: #ffffff;
+}
 }
 /* featured_section */
 .featured_section{
@@ -197,6 +221,7 @@
 }
 @media(max-width :768px){
     .featured_section{
+        width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -444,6 +469,12 @@ margin: auto;
     font-weight: 500;
     color: #c1c1c1;
 }
+.grid_p2{
+    width: 300px;
+    height: 62px;
+    font-size: 22px;
+    color: #ffffff;
+}
 }
 /* hero section2 */
  .hero_section2{
@@ -490,14 +521,14 @@ margin: auto;
     top: 40%;
  }
  .hero_h2text{
-    width: 390px;
+    width: 340px;
     height: 96px;
     font-size: 40px;
     margin: 40px 0px;
     color: #ffffff;
  }
  .hero_ptext{
-    width: 390px;
+    width: 348px;
     height: 96px;
     font-size: 18px;
     color: #ffffff;
