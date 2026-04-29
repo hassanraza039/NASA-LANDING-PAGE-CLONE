@@ -1087,13 +1087,15 @@ margin: opx 16px 0px 0px;
     height: 431px;
 }
 .flex_section_4{
-    width: 1200px;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     position: relative;
     margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 20px;
 }
 .imgs_text1{
     display: flex;
@@ -1102,13 +1104,249 @@ margin: opx 16px 0px 0px;
 .mission{
     font-size: 30px;
     position: absolute;
-    top: 360px;
-    left: 0px;
+    top: 350px;
+    left: 130px;
     color: #ffffff;
 }
 .span_mission{
     position: absolute;
-    top: 370px;
+    top: 360px;
+    left: 320px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission2{
+    width: 200px;
+    height: 60px;
+    font-size: 28px;
+    position: absolute;
+    top: 320px;
+    left: 450px;
+    color: #ffffff;
+}
+.span_mission2{
+    position: absolute;
+    top: 340px;
+    left: 670px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission3{
+    font-size: 30px;
+    position: absolute;
+    top: 340px;
+    left: 800px;
+    color: #ffffff;
+}
+.span_mission3{
+    position: absolute;
+    top: 350px;
+    left: 970px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission4{
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    position: absolute;
+    top: 325px;
+    left: 1100px;
+    color: #ffffff;
+}
+.span_mission4{
+    position: absolute;
+    top: 350px;
+    left: 1310px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission5{
+    font-size: 30px;
+    position: absolute;
+    top: 820px;
     left: 140px;
     color: #ffffff;
+}
+.span_mission5{
+    position: absolute;
+    top: 830px;
+    left: 330px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission6{
+     width: 200px;
+    height: 60px;
+    font-size: 30px;
+    position: absolute;
+    top: 800px;
+    left: 460px;
+    color: #ffffff;
+}
+.span_mission6{
+    position: absolute;
+    top: 820px;
+    left: 660px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission7{
+    font-size: 30px;
+    position: absolute;
+    top: 820px;
+    left: 780px;
+    color: #ffffff;
+}
+.span_mission7{
+    position: absolute;
+    top: 830px;
+    left: 990px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission8{
+    font-size: 30px;
+    position: absolute;
+    top: 825px;
+    left: 1110px;
+    color: #ffffff;
+}
+.span_mission8{
+    position: absolute;
+    top: 835px;
+    left: 1320px;
+    color: red;
+    background-color: #ffffff;
+}
+@media (max-width :768px) {
+    .flex_section_4{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: relative;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.mission{
+    font-size: 30px;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    color: #ffffff;
+}
+.span_mission{
+    position: absolute;
+    top: 360px;
+    left: 270px;
+    color: red;
+    background-color: #ffffff;
+}
+    .mission2{
+    width: 200px;
+    height: 60px;
+    font-size: 28px;
+    position: absolute;
+    top: 810px;
+    left: 80px;
+    color: #ffffff;
+}
+.span_mission2{
+    position: absolute;
+    top: 835px;
+    left: 270px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission3{
+    font-size: 30px;
+    position: absolute;
+    top: 1300px;
+    left: 80px;
+    color: #ffffff;
+}
+.span_mission3{
+    position: absolute;
+    top: 1310px;
+    left: 270px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission4{
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    position: absolute;
+    top: 1750px;
+    left: 80px;
+    color: #ffffff;
+}
+.span_mission4{
+    position: absolute;
+    top: 1770px;
+    left: 270px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission5{
+    font-size: 30px;
+    position: absolute;
+    top: 2240px;
+    left: 80px;
+    color: #ffffff;
+}
+.span_mission5{
+    position: absolute;
+    top: 2250px;
+    left: 270px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission6{
+     width: 200px;
+    height: 60px;
+    font-size: 30px;
+    position: absolute;
+    top: 2690px;
+    left: 80px;
+    color: #ffffff;
+}
+.span_mission6{
+    position: absolute;
+    top: 2710px;
+    left: 270px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission7{
+    font-size: 30px;
+    position: absolute;
+    top: 3170px;
+    left: 80px;
+    color: #ffffff;
+}
+.span_mission7{
+    position: absolute;
+    top: 3180px;
+    left: 270px;
+    color: red;
+    background-color: #ffffff;
+}
+.mission8{
+    font-size: 30px;
+    position: absolute;
+    top: 3660px;
+    left: 80px;
+    color: #ffffff;
+}
+.span_mission8{
+    position: absolute;
+    top: 3670px;
+    left: 270px;
+    color: red;
+    background-color: #ffffff;
+}
 }
