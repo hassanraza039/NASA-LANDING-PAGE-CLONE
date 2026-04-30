@@ -14,6 +14,7 @@
     <div class="nasa_header">
         <div class="search_header">
             <div class="header_button">
+                <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
                 Explore <i class="fa-solid fa-circle-chevron-down" class="i_arrow"></i>
             </div>
             <div>
@@ -32,6 +33,14 @@
             </div>
         </ul>
     </div>
+    <script>
+var menu = document.querySelector(".header_ul");
+var btn = document.querySelector(".toggle_btn");
+
+btn.onclick = function() {
+  menu.classList.toggle("show");
+}
+</script>
     <!-- hero section -->
     <div class="hero_section">
         <img src="./images/hero.JPEG PIC.JPG" alt="" class="hero_image">
@@ -263,25 +272,30 @@
     </section>
     <section>
         <div class="combine_nasa">
-        <div class="first_nasa">
-            <h3 class="h3_859">Freedom 250</h3>
-            <h2 class="h2_859">NASA Celebrates America’s 250th Birthday</h2>
-            <p class="p1_859">Our spirit of adventure and innovation will raise our nation to new heights.</p>
-            <p class="p2_859">From the earliest days of exploration, to the first steps on the Moon and the missions
-                shaping our
-                future, NASA represents the spirit of discovery that defines our nation. As the United States approaches
-                its semiquincentennial, Freedom 250 highlights how innovation, courage, and scientific leadership have
-                carried America forward — and how NASA continues to expand the frontier for the next generation.</p>
-            <p>Learn More <i class="fa-solid fa-circle-arrow-right"></i></p>
-        </div>
-        <div class="second_nasa">
-            <img src="./images/nasa_859.jfif" alt="img_nasa" class="img_859">
-            <p class="text_859">NASA’s X-59 is helping the nation celebrate the 250th anniversary of its independence
-                with an update to its livery – its official paint job and insignia. The X-59 has sported a Freedom 250
-                logo on its engine since its second flight, and it will continue showing off the new detail with every
-                upcoming test flight.</p>
+            <div class="first_nasa">
+                <h3 class="h3_859">Freedom 250</h3>
+                <h2 class="h2_859">NASA Celebrates America’s 250th Birthday</h2>
+                <p class="p1_859">Our spirit of adventure and innovation will raise our nation to new heights.</p>
+                <p class="p2_859">From the earliest days of exploration, to the first steps on the Moon and the missions
+                    shaping our
+                    future, NASA represents the spirit of discovery that defines our nation. As the United States
+                    approaches
+                    its semiquincentennial, Freedom 250 highlights how innovation, courage, and scientific leadership
+                    have
+                    carried America forward — and how NASA continues to expand the frontier for the next generation.</p>
+                <p>Learn More <i class="fa-solid fa-circle-arrow-right"></i></p>
+            </div>
+            <div class="second_nasa">
+                <img src="./images/nasa_859.jfif" alt="img_nasa" class="img_859">
+                <p class="text_859">NASA’s X-59 is helping the nation celebrate the 250th anniversary of its
+                    independence
+                    with an update to its livery – its official paint job and insignia. The X-59 has sported a Freedom
+                    250
+                    logo on its engine since its second flight, and it will continue showing off the new detail with
+                    every
+                    upcoming test flight.</p>
                 <p class="text2_859">NASA/Carla Thomas</p>
-        </div>
+            </div>
         </div>
     </section>
     <h2 class="nasa_topic">More Topics from NASA</h2>
@@ -327,9 +341,77 @@
                 <div class="mission8">Technology</div>
                 <div class="span_mission8"><i class="fa-solid fa-circle-arrow-right"></i></div>
             </div>
-            
+        </div>
+    </section>
+    <section>
+        <div class="nasa_footer_section">
+            <div class="footer_section">
+            <div class="first_footer">
+                <div class="footer_logo"> <img src="./images/nasa logo.png" alt="" class="nasa_logo"></div>
+                <h3 class="footer_h3">National Aeronautics and Space Administration</h3>
+                <p class="p1_footer">NASA explores the unknown in air and space, innovates for the benefit of humanity,
+                    and inspires the world through discovery.</p>
+                <p class="p2_footer">About NASA's Mission</p>
+                <div class="join_us">
+                    <p class="p3_footer">Join Us</p>
+                    <p class="arrow_footer"><i class="fa-solid fa-circle-arrow-right"></i></p>
+                </div>
+            </div>
+            <div class="second_footer">
+                <ul class="ul_footer">
+                    <li class="li_footer">Home</li>
+                    <li class="li_footer">News and Events</li>
+                    <li class="li_footer">Multimedia</li>
+                    <li class="li_footer">NASA+<span class="live">
+                            <span class="live_para">Live</span>
+                        </span>
+                    </li>
+                    <li class="li_footer">Missions</li>
+                    <li class="li_footer">Human in Space</li>
+                    <li class="li_footer">Earth</li>
+                    <li class="li_footer">The Solar System</li>
+                    <li class="li_footer">The Universe</li>
+                    <li class="li_footer">Science</li>
+                    <li class="li_footer">Aeronautics</li>
+                    <li class="li_footer">Technology</li>
+                    <li class="li_footer">Learning Resources</li>
+                    <li class="li_footer">About Nasa</li>
+                    <li class="li_footer">NASA an Espanol</li>
+                </ul>
+            </div>
+            <div class="third_footer">
+                <div class="follow_nasa">Follow Nasa</div>
+                <div class="social_media_logo">
+                    <span><i class="fa-brands fa-facebook"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><i class="fa-brands fa-x-twitter"></i></span>
+                    <span><i class="fa-brands fa-youtube"></i></span>
+                </div>
+                <div class="footer3">More NASA Social Accounts</div>
+                <div class="f3">NASA Newsletters</div>
+            </div>
+        </div>
+        <hr>
+        <ul class="ul_footer2">
+            <li class="li_footer2">Sitemap</li>
+            <li class="li_footer2">For Media</li>
+            <li class="li_footer2">Privacy Policy</li>
+            <li class="li_footer2">FOIA</li>
+            <li class="li_footer2">No Fear Act</li>
+            <li class="li_footer2">Ofiice of the IG</li>
+            <li class="li_footer2">Budget & Annual Reports</li>
+            <li class="li_footer2">Agency Financial Reports</li>
+            <li class="li_footer2">Contact NASA</li>
+            <li class="li_footer2">Accessibility</li>
+        </ul>
+        <ul class="ul_footer3">
+            <li class="li_footer3">Page Last Updated: Apr 29, 2026</li>
+            <li class="li_footer3">Responsible NASA Official: Dacia Massengill</li>
+            <li class="li_footer3">Responsible NASA Official: Abigail Bowman</li>
+        </ul>
         </div>
     </section>
 
 </body>
+
 </html>
