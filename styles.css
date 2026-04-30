@@ -4,7 +4,7 @@
     width: 100%;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 /* header */
 .nasa_header{
@@ -484,6 +484,7 @@ margin: auto;
     position: relative;
  }
  .hero_text2{
+    width: 95%;
     position: absolute;
     left: 5%;
     top: 40%;
@@ -538,7 +539,7 @@ margin: auto;
  }
  /* flex_section */
 .flex_Section{
-    width: 1200px;
+    width: 100%;
     margin: auto;
     padding: 20px;
     display: flex;
@@ -1121,80 +1122,124 @@ margin: opx 16px 0px 0px;
     padding-right: 20px;
 }
 .imgs_text1{
+    width: 88%;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    display: flex;
+    gap: 60px;
+}
+.imgs_text2{
+    width: 18%;
+    position: absolute;
+    top: 350px;
+    left: 430px;
     display: flex;
     gap: 10px;
 }
-.mission{
-    font-size: 30px;
+.imgs_text3{
+    width: 18%;
     position: absolute;
     top: 350px;
-    left: 130px;
+    left: 750px;
+    display: flex;
+    gap: 140px;
+}
+.imgs_text4{
+    width: 18%;
+    position: absolute;
+    top: 350px;
+    left: 1050px;
+    display: flex;
+    gap: 10px;
+}
+.imgs_text5{
+    width: 220px;
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    display: flex;
+    gap: 170px;
+}
+.imgs_text6{
+    width: 230px;
+    position: absolute;
+    top: 800px;
+    left: 430px;
+    display: flex;
+    gap: 10px;
+}
+.imgs_text7{
+    width: 245px;
+    position: absolute;
+    top: 800px;
+    left: 750px;
+    display: flex;
+    gap: 190px;
+}
+.imgs_text8{
+    width: 230px;
+    position: absolute;
+    top: 800px;
+    left: 1050px;
+    display: flex;
+    gap: 170px;
+}
+.mission{
+    width: 10%;
+    font-size: 30px;
     color: #ffffff;
 }
 .span_mission{
-    position: absolute;
-    top: 360px;
-    left: 320px;
+    width: 20px;
+    height: 16px;
     color: red;
     background-color: #ffffff;
 }
 .mission2{
+    width: 10%;
     width: 200px;
     height: 60px;
     font-size: 28px;
-    position: absolute;
-    top: 320px;
-    left: 450px;
     color: #ffffff;
 }
 .span_mission2{
-    position: absolute;
-    top: 340px;
-    left: 670px;
+    width: 20px;
+    height: 16px;
     color: red;
     background-color: #ffffff;
 }
 .mission3{
+    width: 10%;
     font-size: 30px;
-    position: absolute;
-    top: 340px;
-    left: 800px;
     color: #ffffff;
 }
 .span_mission3{
-    position: absolute;
-    top: 350px;
-    left: 970px;
+    width: 20px;
+    height: 16px;
     color: red;
     background-color: #ffffff;
 }
 .mission4{
     width: 200px;
     height: 60px;
-    font-size: 30px;
-    position: absolute;
-    top: 325px;
     left: 1100px;
     color: #ffffff;
 }
 .span_mission4{
-    position: absolute;
-    top: 350px;
-    left: 1310px;
+    width: 20px;
+    height: 16px;
     color: red;
     background-color: #ffffff;
 }
 .mission5{
+    width: 10%;
     font-size: 30px;
-    position: absolute;
-    top: 820px;
-    left: 140px;
     color: #ffffff;
 }
 .span_mission5{
-    position: absolute;
-    top: 830px;
-    left: 330px;
+    width: 20px;
+    height: 16px;
     color: red;
     background-color: #ffffff;
 }
@@ -1202,43 +1247,33 @@ margin: opx 16px 0px 0px;
      width: 200px;
     height: 60px;
     font-size: 30px;
-    position: absolute;
-    top: 800px;
-    left: 460px;
     color: #ffffff;
 }
 .span_mission6{
-    position: absolute;
-    top: 820px;
-    left: 660px;
+    width: 20px;
+    height: 16px;
     color: red;
     background-color: #ffffff;
 }
 .mission7{
+    width: 10%;
     font-size: 30px;
-    position: absolute;
-    top: 820px;
-    left: 780px;
     color: #ffffff;
 }
 .span_mission7{
-    position: absolute;
-    top: 830px;
-    left: 990px;
+    width: 20px;
+    height: 16px;
     color: red;
     background-color: #ffffff;
 }
 .mission8{
+    width: 10%;
     font-size: 30px;
-    position: absolute;
-    top: 825px;
-    left: 1110px;
     color: #ffffff;
 }
 .span_mission8{
-    position: absolute;
-    top: 835px;
-    left: 1320px;
+    width: 20px;
+    height: 16px;
     color: red;
     background-color: #ffffff;
 }
@@ -1257,16 +1292,16 @@ margin: opx 16px 0px 0px;
 .mission{
     width: 35%;
     font-size: 30px;
-    position: absolute;
+    /* position: absolute;
     top: 350px;
-    left: 80px;
+    left: 80px; */
     color: #ffffff;
 }
 .span_mission{
     width: 6%;
-    position: absolute;
+    /* position: absolute;
     top: 360px;
-    left: 270px;
+    left: 270px; */
     color: red;
     background-color: #ffffff;
 }
@@ -1274,32 +1309,32 @@ margin: opx 16px 0px 0px;
     width: 200px;
     height: 60px;
     font-size: 28px;
-    position: absolute;
+    /* position: absolute;
     top: 810px;
-    left: 80px;
+    left: 80px; */
     color: #ffffff;
 }
 .span_mission2{
     width: 6%;
-    position: absolute;
+    /* position: absolute;
     top: 835px;
-    left: 270px;
+    left: 270px; */
     color: red;
     background-color: #ffffff;
 }
 .mission3{
      width: 35%;
     font-size: 30px;
-    position: absolute;
+    /* position: absolute;
     top: 1300px;
-    left: 80px;
+    left: 80px; */
     color: #ffffff;
 }
 .span_mission3{
     width: 6%;
-    position: absolute;
+    /* position: absolute;
     top: 1310px;
-    left: 270px;
+    left: 270px; */
     color: red;
     background-color: #ffffff;
 }
@@ -1307,32 +1342,32 @@ margin: opx 16px 0px 0px;
     width: 200px;
     height: 60px;
     font-size: 30px;
-    position: absolute;
+    /* position: absolute;
     top: 1750px;
-    left: 80px;
+    left: 80px; */
     color: #ffffff;
 }
 .span_mission4{
     width: 6%;
-    position: absolute;
+    /* position: absolute;
     top: 1770px;
-    left: 270px;
+    left: 270px; */
     color: red;
     background-color: #ffffff;
 }
 .mission5{
      width: 35%;
     font-size: 30px;
-    position: absolute;
+    /* position: absolute;
     top: 2240px;
-    left: 80px;
+    left: 80px; */
     color: #ffffff;
 }
 .span_mission5{
     width: 6%;
-    position: absolute;
+    /* position: absolute;
     top: 2250px;
-    left: 270px;
+    left: 270px; */
     color: red;
     background-color: #ffffff;
 }
@@ -1341,49 +1376,113 @@ margin: opx 16px 0px 0px;
      width: 200px;
     height: 60px;
     font-size: 30px;
-    position: absolute;
+    /* position: absolute;
     top: 2690px;
-    left: 80px;
+    left: 80px; */
     color: #ffffff;
 }
 .span_mission6{
     width: 6%;
-    position: absolute;
+    /* position: absolute;
     top: 2710px;
-    left: 270px;
+    left: 270px; */
     color: red;
     background-color: #ffffff;
 }
 .mission7{
      width: 35%;
-    font-size: 30px;
+    /* font-size: 30px;
     position: absolute;
-    top: 3170px;
+    top: 3170px; */
     left: 80px;
     color: #ffffff;
 }
 .span_mission7{
     width: 6%;
-    position: absolute;
+    /* position: absolute;
     top: 3180px;
-    left: 270px;
+    left: 270px; */
     color: red;
     background-color: #ffffff;
 }
 .mission8{
      width: 35%;
     font-size: 30px;
-    position: absolute;
+    /* position: absolute;
     top: 3660px;
-    left: 80px;
+    left: 80px; */
     color: #ffffff;
 }
 .span_mission8{
     width: 6%;
-    position: absolute;
+    /* position: absolute;
     top: 3670px;
-    left: 270px;
+    left: 270px; */
     color: red;
     background-color: #ffffff;
+}
+.imgs_text1{
+    width: 186px;
+    position: absolute;
+    top: 350px;
+    left: 115px;
+    display: flex;
+    gap: 100px;
+}
+.imgs_text2{
+    width: 60%;
+    position: absolute;
+    top: 800px;
+    left: 75px;
+    display: flex;
+    gap: 10px;
+}
+.imgs_text3{
+    width: 18%;
+    position: absolute;
+    top: 1300px;
+    left: 100px;
+    display: flex;
+    gap: 140px;
+}
+.imgs_text4{
+    width: 60%;
+    position: absolute;
+    top: 1750px;
+    left: 56px;
+    display: flex;
+    gap: 10px;
+}
+.imgs_text5{
+    width: 250px;
+    position: absolute;
+    top: 2250px;
+    left: 84px;
+    display: flex;
+    gap: 113px;
+}
+.imgs_text6{
+    width: 230px;
+    position: absolute;
+    top: 2700px;
+    left: 84px;
+    display: flex;
+    gap: 10px;
+}
+.imgs_text7{
+    width: 245px;
+    position: absolute;
+    top: 3190px;
+    left: 84px;
+    display: flex;
+    gap: 120px;
+}
+.imgs_text8{
+    width: 230px;
+    position: absolute;
+    top: 3670px;
+    left: 60px;
+    display: flex;
+    gap: 170px;
 }
 }
